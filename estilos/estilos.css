@@ -47,6 +47,33 @@ html {
     grid-area: footer;
 
 }
+#grilla-vacuno {
+
+    display: grid;
+    grid-template-areas:
+        "header-vacuno"
+        "section-vacuno"
+        "footer-vacuno";
+
+    grid-template-rows: auto;
+    gap: 1.5rem;
+
+}
+
+#header-vauno {
+    grid-area: header-vacuno;
+}
+
+#section-vacuno {
+    grid-area: section-vacuno;
+}
+
+
+#footer-vacuno {
+    grid-area: footer-vacuno;
+
+}
+
 
 header {
     display: flex;
@@ -156,6 +183,10 @@ footer {
   .promociones-vacuno h2 {
     color: red;
   }*/
+
+
+
+
 
 @media (min-width:481px) and (max-width:720px ){
 
