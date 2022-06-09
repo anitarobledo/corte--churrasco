@@ -74,46 +74,21 @@ html {
 
 }
 
-
-header {
-    display: flex;
-    background-color: rgb(234, 221, 197);
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    padding: 4rem;
-    color: black;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.logo img {
-    display: flex;
-    height: 8rem;
-    justify-content: left;
-}
-
-
 nav ul {
-    display: flex;
-    list-style-type: none;
     gap: 2rem;
-    font: menu;
-
-}
-
-nav ul a {
     text-decoration: none;
     font-size: 2rem;
-    color: rgb(0, 0, 0);
-    transition: all 0.5s ease-out;
+    font-family: 'Montserrat', sans-serif;
     
+
 }
-a:hover,
-a:focus{
-    color: rgb(181, 79, 62);
-    font-size: 2.2rem;
+
+.cremita{
+    background-color:  rgb(234, 221, 197) ;
 }
+
+
+
 
 .containerPhoto {
     border: 1px solid black;
@@ -134,7 +109,7 @@ a:focus{
 
 .photo--animacion:hover{
 
-transform: scale(2);
+transform: scale(1.2);
 transition-property: all;
 transition-duration: 2s;
 
